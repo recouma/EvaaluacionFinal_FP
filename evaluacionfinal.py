@@ -10,9 +10,15 @@ productos = {
 }
 
 stock = {
-    '8475HD': [387990, 10], '2175HD': [327990, 4], 'JjfFHD': [424990, 1],
-    'fgdxFHD': [664990, 21], '123FHD': [290890, 32], '342FHD': [444990, 7],
-    'GF75HD': [749990, 2], 'UWU131HD': [349990, 1], 'FS1230HD': [249990, 0]
+    '8475HD': [387990, 10],
+    '2175HD', [327990, 4],
+    'JjfFHD': [424990, 1],
+    'fgdxFHD': [664990, 21],
+    '123FHD': [290890, 32],
+    '342FHD': [444990, 7],
+    'GF75HD': [749990, 2],
+    'UWU131HD': [349990, 1],
+    'FS1230HD': [249990, 0]
 }
 
 def stock_marca(marca):
@@ -48,7 +54,7 @@ def menu():
     while True:
         print("\n*** MENU PRINCIPAL ***")
         print("1. Stock marca.")
-        print("2. Búsqueda por RAM y precio.")
+        print("2. Búsqueda por precio.")
         print("3. Eliminar producto.")
         print("4. Salir.")
         opcion = input("Ingrese opción: ")
